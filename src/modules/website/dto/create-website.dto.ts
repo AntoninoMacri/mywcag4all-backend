@@ -5,6 +5,6 @@ export class CreateWebsiteDto {
   isPublic: boolean;
   url: string;
   score: number;
-  level: string;
+  wcagLevel: string;
   user: User;
 }
