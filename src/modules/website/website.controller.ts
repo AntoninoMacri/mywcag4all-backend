@@ -61,6 +61,7 @@ export class WebsiteController {
   @Patch(':id')
   @UseGuards(AuthGuard('jwt'))
   payload(@Param('id') id: string, @Body() updateWebsiteDto: UpdateWebsiteDto) {
+    console.log("@Patch(':id')");
     return this.websiteService.update(id, updateWebsiteDto);
   }
 
@@ -71,6 +72,7 @@ export class WebsiteController {
     @Param('test_index') test_index: string,
     @Body() updateWebsiteTestDto: UpdateWebsiteTestDto,
   ) {
+    console.log("@Patch(':id/tests/:test_index')");
     return this.websiteService.updateTest(id, test_index, updateWebsiteTestDto);
   }
 
@@ -98,7 +100,8 @@ export class WebsiteController {
     @Param('guideline_index') guideline_index: string,
     @Param('criterion_index') criterion_index: string,
     @Body() updateWebsiteCriterionDto: UpdateWebsiteCriterionDto,
-  ) {
+  ) {    
+    console.log("@Patch(':id/sections/:section_index/guidelines/:guideline_index/criteria/:criterion_index')");
     return this.websiteService.updateCriterion(id, section_index, guideline_index, criterion_index, updateWebsiteCriterionDto);
   }
 
@@ -117,12 +120,14 @@ export class WebsiteController {
   @Patch(':id/level')
   @UseGuards(AuthGuard('jwt'))
   updateLevel(@Param('id') id: string, @Body() updateWebsiteLevelDto: UpdateWebsiteLevelDto) {
+    console.log(":id/score");
     return this.websiteService.updateLevel(id, updateWebsiteLevelDto);
   }
 
   @Patch(':id/score')
   @UseGuards(AuthGuard('jwt'))
-  updateScore(@Param('id') id: string, @Body() payload: UpdateWebsiteScoreDto) {
+  updateScore(@Param('id') id: string, @Body() payload: UpdateWebsiteScoreDto) {    
+    console.log("@Patch(':id/score')");
     return this.websiteService.updateScore(id, payload);
   }
 

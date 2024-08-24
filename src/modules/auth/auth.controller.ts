@@ -22,7 +22,7 @@ export class AuthController {
   ) {}
 
   @Get('private')
-  //@UseGuards(AuthGuard('jwt'))
+  @UseGuards(AuthGuard('jwt'))
   async hiddenInformation() {
     return 'hidden information';
   }
