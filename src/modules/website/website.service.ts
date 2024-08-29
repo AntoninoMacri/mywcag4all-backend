@@ -65,7 +65,15 @@ export class WebsiteService {
     return res;
   }
 
+  // async update(id: string, payload: UpdateWebsiteDto) {
+  //   return await this.model.findByIdAndUpdate(id, { ...payload });
+  // }
+
+   // Metodo per l'aggiornamento
   async update(id: string, payload: UpdateWebsiteDto) {
+    if (typeof payload.user === 'string') {
+      payload.user = new Types.ObjectId(payload.user);
+    }
     return await this.model.findByIdAndUpdate(id, { ...payload });
   }
 

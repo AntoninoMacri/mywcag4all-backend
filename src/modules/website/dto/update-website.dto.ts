@@ -3,11 +3,13 @@ import { CreateWebsiteDto } from './create-website.dto';
 import { Criterion } from 'src/modules/criterion/entities/criterion.schema';
 import { Test } from 'src/modules/test/entities/test.schema';
 import { Section } from 'src/modules/section/entities/section.schema';
+import { Types } from 'mongoose';
 
 export class UpdateWebsiteDto {
   name: string;
   url: string;
   isPublic: boolean;
+  user?: string | Types.ObjectId;
 }
 
 export class UpdateWebsiteTestDto {
