@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Massachusetts Institute of Technology (MIT) License",
+    "abbr": "MIT License",
+    "url": "https://opensource.org/license/mit/"
+  },
+  {
+    "name": "GNU General Public License version 3",
+    "abbr": "GPLv3",
+    "url": "https://www.gnu.org/licenses/gpl-3.0.html"
+  },
+  {
+    "name": "GNU Affero General Public License",
+    "abbr": "AGPLv3",
+    "url": "https://www.gnu.org/licenses/agpl-3.0.en.html"
+  },
+  {
+    "name": "GNU Lesser General Public License",
+    "abbr": "LGPLv3",
+    "url": "https://www.gnu.org/licenses/lgpl-3.0.en.html"
+  },
+  {
+    "name": "W3C Software license - 2023 version",
+    "abbr": "W3C Software license",
+    "url": "https://www.w3.org/copyright/software-license-2023/"
+  },
+  {
+    "name": "Creative Commons 4.0 Attribution License",
+    "abbr": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/deed.en"
+  },
+  {
+    "name": "Mozilla Public License Version 2.0",
+    "abbr": "MPL v2.0",
+    "url": "https://www.mozilla.org/en-US/MPL/2.0/"
+  },
+  {
+    "name": "Apache License Version 2.0",
+    "abbr": "AL License v.2.0",
+    "url": "https://www.apache.org/licenses/LICENSE-2.0"
+  },
+  {
+    "name": "Internet Systems Consortium License",
+    "abbr": "ISC License",
+    "url": "https://opensource.org/license/isc-license-txt/"
+  },
+  {
+    "name": "Copyright - reserved rights",
+    "abbr": "©",
+    "url": "https://en.wikipedia.org/wiki/Copyright"
+  }
+]
