@@ -6,6 +6,9 @@ print("Database selezionato: " + db.getName());
 
 print("Esecuzione dello script per la collezione tools...");
 
+// Elimina tutti i documenti esistenti nella collezione
+db.tools.deleteMany({});
+
 db.tools.insertMany([
   {
     name: "ColorA11y",
@@ -570,6 +573,9 @@ db.tools.insertMany([
 ]);
 
 print("Esecuzione dello script per la collezione toolclasses...");
+
+// Elimina tutti i documenti esistenti nella collezione
+db.toolclasses.deleteMany({});
 
 db.toolclasses.insertMany([
   {
@@ -1361,6 +1367,9 @@ db.toolclasses.insertMany([
 ]);
 
 print("Esecuzione dello script per la collezione myths...");
+
+// Elimina tutti i documenti esistenti nella collezione
+db.myths.deleteMany({});
 
 db.myths.insertMany([
   {
