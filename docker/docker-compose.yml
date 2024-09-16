@@ -1,4 +1,4 @@
-version: '3.8'
+#version: '3.8'#deprecato
 
 services:
 
@@ -10,6 +10,8 @@ services:
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: example
+    volumes:
+      - ./scripts:/scripts
 
   mongo-express:
     image: mongo-express
