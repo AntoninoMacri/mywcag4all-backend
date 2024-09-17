@@ -1,5 +1,5 @@
-import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
-import { HydratedDocument } from 'mongoose';
+import { Prop, Schema, SchemaFactory } from "@nestjs/mongoose";
+import { HydratedDocument } from "mongoose";
 
 export type LicenseDocument = HydratedDocument<License>;
 
@@ -10,6 +10,9 @@ export class License {
 
   @Prop({ required: true })
   url: string;
+
+  @Prop({ required: true })
+  abbr: string;
 }
 
 export const LicenseSchema = SchemaFactory.createForClass(License);

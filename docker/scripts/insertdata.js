@@ -16,7 +16,7 @@ db.tools.insertMany([
     types: ["Web service"],
     tags: ["color-contrast"],
     price: "free",
-    license: "Copyright",
+    license: ObjectId("6522ca69b0c8e50007cdc56a"), // Copyright
     source_code: "",
     index: 0,
   },
@@ -26,7 +26,7 @@ db.tools.insertMany([
     types: ["Software", "Desktop app"],
     tags: ["color-contrast"],
     price: "free",
-    license: "GPL-3.0 License",
+    license: ObjectId("6522ca69b0c8e50007cdc562"), // GPL-3.0 License
     source_code: "https://github.com/ThePacielloGroup/CCAe",
     index: 1,
   },
@@ -36,7 +36,7 @@ db.tools.insertMany([
     types: ["Web service", "API"],
     tags: ["color-contrast"],
     price: "free",
-    license: "Copyright",
+    license: ObjectId("6522ca69b0c8e50007cdc56a"), // Copyright
     source_code: "",
     index: 2,
   },
@@ -46,7 +46,7 @@ db.tools.insertMany([
     types: ["Web service"],
     tags: ["color", "font size", "color picker"],
     price: "free",
-    license: "Copyright",
+    license: ObjectId("6522ca69b0c8e50007cdc56a"), // Copyright
     source_code: "",
     index: 3,
   },
@@ -56,7 +56,7 @@ db.tools.insertMany([
     types: ["Web service", "API"],
     tags: ["color", "level", "link", "color picker"],
     price: "free",
-    license: "Copyright",
+    license: ObjectId("6522ca69b0c8e50007cdc56a"), // Copyright
     source_code: "",
     index: 4,
   },
@@ -66,7 +66,7 @@ db.tools.insertMany([
     types: ["Browser plugin", "Chrome extension"],
     tags: ["color", "wcag level", "font", "color picker"],
     price: "free",
-    license: "MIT License",
+    license: ObjectId("6522ca69b0c8e50007cdc561"), // MIT License
     source_code: "https://github.com/Pushedskydiver/Colour-Contrast-Checker",
     index: 5,
   },
@@ -76,7 +76,7 @@ db.tools.insertMany([
     types: ["Web service"],
     tags: ["color", "level", "font size", "font", "color picker"],
     price: "free",
-    license: "MIT License",
+    license: ObjectId("6522ca69b0c8e50007cdc561"), // MIT License
     source_code: "https://github.com/Pushedskydiver/Colour-Contrast-Checker",
     index: 6,
   },
@@ -86,7 +86,7 @@ db.tools.insertMany([
     types: ["Browser plugin", "Firefox extension"],
     tags: ["color", "wcag level", "font size", "vision simulator", "color picker"],
     price: "free",
-    license: "Copyright",
+    license: ObjectId("6522ca69b0c8e50007cdc56a"), // Copyright
     source_code: "",
     index: 7,
   },
@@ -96,7 +96,7 @@ db.tools.insertMany([
     types: ["Browser plugin", "Chrome extension"],
     tags: ["color", "wcag level", "font size", "vision simulator", "color picker"],
     price: "free",
-    license: "Copyright",
+    license: ObjectId("6522ca69b0c8e50007cdc56a"), // Copyright
     source_code: "",
     index: 8,
   },
@@ -106,7 +106,7 @@ db.tools.insertMany([
     types: ["Browser plugin", "MS Edge extension"],
     tags: ["color", "wcag level", "font size", "vision simulator", "color picker"],
     price: "free",
-    license: "Copyright",
+    license: ObjectId("6522ca69b0c8e50007cdc56a"), // Copyright
     source_code: "",
     index: 9,
   },
@@ -116,7 +116,7 @@ db.tools.insertMany([
     types: ["Web service"],
     tags: ["color", "color-contrast", "wcag level"],
     price: "free",
-    license: "MIT License",
+    license: ObjectId("6522ca69b0c8e50007cdc561"), // MIT License
     source_code: "https://github.com/j0lv3r4/pa11y",
     index: 10,
   },
@@ -126,7 +126,7 @@ db.tools.insertMany([
     types: ["Web service"],
     tags: ["readability"],
     price: "free",
-    license: "Copyright",
+    license: ObjectId("6522ca69b0c8e50007cdc56a"), // Copyright
     source_code: "",
     index: 11,
   },
@@ -136,7 +136,7 @@ db.tools.insertMany([
     types: ["Web service"],
     tags: ["readability"],
     price: "free",
-    license: "Copyright",
+    license: ObjectId("6522ca69b0c8e50007cdc56a"), // Copyright
     source_code: "",
     index: 12,
   },
@@ -146,7 +146,7 @@ db.tools.insertMany([
     types: ["Web service"],
     tags: ["readability"],
     price: "free",
-    license: "Copyright",
+    license: ObjectId("6522ca69b0c8e50007cdc56a"), // Copyright
     source_code: "",
     index: 13,
   },
@@ -156,7 +156,7 @@ db.tools.insertMany([
     types: ["Browser plugin", "Chrome extension"],
     tags: ["readability"],
     price: "free",
-    license: "Copyright",
+    license: ObjectId("6522ca69b0c8e50007cdc56a"), // Copyright
     source_code: "",
     index: 14,
   },
@@ -166,7 +166,7 @@ db.tools.insertMany([
     types: ["Browser plugin", "Chrome extension"],
     tags: ["readability"],
     price: "free",
-    license: "Copyright",
+    license: ObjectId("6522ca69b0c8e50007cdc56a"), // Copyright
     source_code: "",
     index: 15,
   },
@@ -176,7 +176,7 @@ db.tools.insertMany([
     types: ["Web service"],
     tags: ["evaluation tool"],
     price: "free",
-    license: "MIT License",
+    license: ObjectId("6522ca69b0c8e50007cdc561"), // MIT License
     source_code: "https://github.com/CoreyGinnivan/whocanuse",
     index: 16,
   },
@@ -186,7 +186,7 @@ db.tools.insertMany([
     types: ["Browser plugin", "Chrome extension"],
     tags: ["vision simulator"],
     price: "free",
-    license: "ISC",
+    license: ObjectId("6522ca69b0c8e50007cdc569"), // ISC License
     source_code: "https://github.com/Metamatrix/web-disability-simulator",
     index: 17,
   },
@@ -196,7 +196,7 @@ db.tools.insertMany([
     types: ["Browser plugin", "Chrome extension"],
     tags: ["vision simulator"],
     price: "free, priced",
-    license: "Copyright",
+    license: ObjectId("6522ca69b0c8e50007cdc56a"), // Copyright
     source_code: "",
     index: 18,
   },
@@ -206,7 +206,7 @@ db.tools.insertMany([
     types: ["Browser plugin", "Chrome extension"],
     tags: ["vision simulator"],
     price: "free",
-    license: "Copyright",
+    license: ObjectId("6522ca69b0c8e50007cdc56a"), // Copyright
     source_code: "",
     index: 19,
   },
@@ -216,7 +216,7 @@ db.tools.insertMany([
     types: ["Web service"],
     tags: ["vision simulator"],
     price: "free",
-    license: "Copyright",
+    license: ObjectId("6522ca69b0c8e50007cdc56a"), // Copyright
     source_code: "",
     index: 20,
   },
@@ -226,7 +226,7 @@ db.tools.insertMany([
     types: ["Software", "Desktop app"],
     tags: ["vision simulator"],
     price: "free",
-    license: "Copyright",
+    license: ObjectId("6522ca69b0c8e50007cdc56a"), // Copyright
     source_code: "",
     index: 21,
   },
@@ -236,7 +236,7 @@ db.tools.insertMany([
     types: ["Software", "Desktop app", "Windows only"],
     tags: ["epilepsy condition evaluation"],
     price: "free",
-    license: "Copyright",
+    license: ObjectId("6522ca69b0c8e50007cdc56a"), // Copyright
     source_code: "",
     index: 22,
   },
@@ -246,7 +246,7 @@ db.tools.insertMany([
     types: ["Software", "Desktop app", "Multiplatform"],
     tags: ["vision simulator"],
     price: "free",
-    license: "MIT License",
+    license: ObjectId("6522ca69b0c8e50007cdc561"), // MIT License
     source_code: "https://github.com/nvkelso/color-oracle-java",
     index: 23,
   },
@@ -256,7 +256,7 @@ db.tools.insertMany([
     types: ["Web service"],
     tags: ["validator", "html5"],
     price: "free",
-    license: "W3C Software License",
+    license: ObjectId("6522ca69b0c8e50007cdc565"), // W3C Software License
     source_code: "https://github.com/w3c/markup-validator",
     index: 24,
   },
@@ -266,7 +266,7 @@ db.tools.insertMany([
     types: ["Web service"],
     tags: ["validator", "css3"],
     price: "free",
-    license: "W3C Software License",
+    license: ObjectId("6522ca69b0c8e50007cdc565"), // W3C Software License
     source_code: "https://github.com/w3c/css-validator",
     index: 25,
   },
@@ -276,7 +276,7 @@ db.tools.insertMany([
     types: ["Web service"],
     tags: ["validator", "html"],
     price: "free",
-    license: "MIT License",
+    license: ObjectId("6522ca69b0c8e50007cdc561"), // MIT License
     source_code: "https://github.com/validator/validator",
     index: 26,
   },
@@ -286,7 +286,7 @@ db.tools.insertMany([
     types: ["Web service"],
     tags: ["internationalisation", "evaluation tool"],
     price: "free",
-    license: "W3C Software License",
+    license: ObjectId("6522ca69b0c8e50007cdc565"), // W3C Software License
     source_code: "https://github.com/w3c/i18n-checker",
     index: 27,
   },
@@ -296,7 +296,7 @@ db.tools.insertMany([
     types: ["Web service"],
     tags: ["link", "anchors"],
     price: "free",
-    license: "W3C Software License",
+    license: ObjectId("6522ca69b0c8e50007cdc565"), // W3C Software License
     source_code: "https://github.com/w3c/link-checker",
     index: 28,
   },
@@ -306,7 +306,7 @@ db.tools.insertMany([
     types: ["Browser plugin", "Chrome extension"],
     tags: ["focus"],
     price: "free",
-    license: "MIT License",
+    license: ObjectId("6522ca69b0c8e50007cdc561"), // MIT License
     source_code: "https://github.com/wizzyfx/nerdeFocusPlugIn",
     index: 29,
   },
@@ -316,7 +316,7 @@ db.tools.insertMany([
     types: ["Browser plugin", "Chrome extension"],
     tags: ["tab order"],
     price: "free",
-    license: "Copyright",
+    license: ObjectId("6522ca69b0c8e50007cdc56a"), // Copyright
     source_code: "",
     index: 30,
   },
@@ -326,7 +326,7 @@ db.tools.insertMany([
     types: ["Web service"],
     tags: ["table"],
     price: "free",
-    license: "View license",
+    license: ObjectId("6522ca69b0c8e50007cdc565"), // W3C Software License
     source_code: "https://github.com/wet-boew/wet-boew",
     index: 31,
   },
@@ -336,7 +336,7 @@ db.tools.insertMany([
     types: ["Browser plugin", "Firefox extension"],
     tags: ["headings"],
     price: "free",
-    license: "Copyright",
+    license: ObjectId("6522ca69b0c8e50007cdc56a"), // Copyright
     source_code: "",
     index: 32,
   },
@@ -346,7 +346,7 @@ db.tools.insertMany([
     types: ["Web service"],
     tags: ["HTML tag"],
     price: "free",
-    license: "CC-BY-4.0 License",
+    license: ObjectId("6522ca69b0c8e50007cdc566"), // CC-BY-4.0 License
     source_code: "https://github.com/Fyrd/caniuse",
     index: 33,
   },
@@ -356,7 +356,7 @@ db.tools.insertMany([
     types: ["Web service"],
     tags: ["monitoring"],
     price: "free",
-    license: "GPL-3.0 License",
+    license: ObjectId("6522ca69b0c8e50007cdc562"), // GPL-3.0 License
     source_code: "https://github.com/pa11y/pa11y-dashboard",
     index: 34,
   },
@@ -366,7 +366,7 @@ db.tools.insertMany([
     types: ["Software", "Desktop app", "Multiplatform", "CLI"],
     tags: ["evaluation tool"],
     price: "free",
-    license: "GPL-3.0 License",
+    license: ObjectId("6522ca69b0c8e50007cdc562"), // GPL-3.0 License
     source_code: "https://github.com/pa11y/pa11y",
     index: 35,
   },
@@ -376,7 +376,7 @@ db.tools.insertMany([
     types: ["Web service"],
     tags: ["service"],
     price: "free",
-    license: "GPL-3.0 License",
+    license: ObjectId("6522ca69b0c8e50007cdc562"), // GPL-3.0 License
     source_code: "https://github.com/pa11y/pa11y-webservice",
     index: 36,
   },
@@ -386,7 +386,7 @@ db.tools.insertMany([
     types: ["Web service"],
     tags: ["monitoring"],
     price: "free",
-    license: "AGPL-3.0 License",
+    license: ObjectId("6522ca69b0c8e50007cdc563"), // AGPL-3.0 License
     source_code: "https://github.com/Tanaguru/Tanaguru",
     index: 37,
   },
@@ -396,7 +396,7 @@ db.tools.insertMany([
     types: ["Web service"],
     tags: ["monitoring"],
     price: "free",
-    license: "GPL-3.0 License",
+    license: ObjectId("6522ca69b0c8e50007cdc562"), // GPL-3.0 License
     source_code: "https://github.com/Orange-OpenSource/a11ygato-platform",
     index: 38,
   },
@@ -406,7 +406,7 @@ db.tools.insertMany([
     types: ["Web service"],
     tags: ["evaluation tool", "monitoring"],
     price: "free",
-    license: "Copyright",
+    license: ObjectId("6522ca69b0c8e50007cdc56a"), // Copyright
     source_code: "",
     index: 39,
   },
@@ -416,7 +416,7 @@ db.tools.insertMany([
     types: ["Browser plugin", "Firefox extension"],
     tags: ["evaluation tool"],
     price: "free",
-    license: "MPL-2.0 License",
+    license: ObjectId("6522ca69b0c8e50007cdc567"), // MPL-2.0 License
     source_code: "https://github.com/ainspector/firefox-ainspector-wcag",
     index: 40,
   },
@@ -426,7 +426,7 @@ db.tools.insertMany([
     types: ["Web service"],
     tags: ["evaluation tool"],
     price: "free",
-    license: "Apache-2.0 License",
+    license: ObjectId("6522ca69b0c8e50007cdc568"), // Apache-2.0 License
     source_code: "https://github.com/opena11y/fae2",
     index: 41,
   },
@@ -436,7 +436,7 @@ db.tools.insertMany([
     types: ["Browser plugin", "Chrome extension"],
     tags: ["evaluation tool", "dev tool"],
     price: "free",
-    license: "GPL-3.0 License",
+    license: ObjectId("6522ca69b0c8e50007cdc562"), // GPL-3.0 License
     source_code: "https://github.com/chrispederick/web-developer/",
     index: 42,
   },
@@ -446,7 +446,7 @@ db.tools.insertMany([
     types: ["Web service", "API", "Browser plugin", "Chrome extension", "Firefox extension", "Edge extension"],
     tags: ["evaluation tool"],
     price: "free",
-    license: "Copyright",
+    license: ObjectId("6522ca69b0c8e50007cdc56a"), // Copyright
     source_code: "",
     index: 43,
   },
@@ -456,7 +456,7 @@ db.tools.insertMany([
     types: ["Software", "Desktop app", "Browser plugin", "Chrome extension", "Firefox extension", "Edge extension"],
     tags: ["evaluation tool"],
     price: "free, priced",
-    license: "Copyright",
+    license: ObjectId("6522ca69b0c8e50007cdc56a"), // Copyright
     source_code: "",
     index: 44,
   },
@@ -466,7 +466,7 @@ db.tools.insertMany([
     types: ["Web service"],
     tags: ["evaluation tool", "legal advising"],
     price: "free",
-    license: "Copyright",
+    license: ObjectId("6522ca69b0c8e50007cdc56a"), // Copyright
     source_code: "",
     index: 45,
   },
@@ -476,7 +476,7 @@ db.tools.insertMany([
     types: ["Software", "Desktop app", "Browser plugin"],
     tags: ["evaluation tool"],
     price: "free",
-    license: "MIT License",
+    license: ObjectId("6522ca69b0c8e50007cdc561"), // MIT License
     source_code: "https://github.com/ryersondmp/sa11y",
     index: 46,
   },
@@ -486,7 +486,7 @@ db.tools.insertMany([
     types: ["Software", "Desktop app", "Browser plugin", "Chrome extension", "Firefox extension", "API"],
     tags: ["evaluation tool"],
     price: "free",
-    license: "MIT License",
+    license: ObjectId("6522ca69b0c8e50007cdc561"), // MIT License
     source_code: "https://github.com/ffoodd/a11y.css",
     index: 47,
   },
@@ -496,7 +496,7 @@ db.tools.insertMany([
     types: ["Browser plugin", "Chrome extension"],
     tags: ["evaluation tool"],
     price: "free",
-    license: "Copyright",
+    license: ObjectId("6522ca69b0c8e50007cdc56a"), // Copyright
     source_code: "",
     index: 48,
   },
@@ -506,7 +506,7 @@ db.tools.insertMany([
     types: ["Web service"],
     tags: ["evaluation tool"],
     price: "free",
-    license: "ISC License",
+    license: ObjectId("6522ca69b0c8e50007cdc569"), // ISC License
     source_code: "https://github.com/qualweb",
     index: 49,
   },
@@ -516,7 +516,7 @@ db.tools.insertMany([
     types: ["Web service"],
     tags: ["evaluation tool"],
     price: "free",
-    license: "Copyright",
+    license: ObjectId("6522ca69b0c8e50007cdc56a"), // Copyright
     source_code: "",
     index: 50,
   },
@@ -526,7 +526,7 @@ db.tools.insertMany([
     types: ["Web service"],
     tags: ["evaluation tool"],
     price: "free",
-    license: "AGPL-3.0 License",
+    license: ObjectId("6522ca69b0c8e50007cdc563"), // AGPL-3.0 License
     source_code: "https://gitlab.com/asqatasun/Asqatasun/-/tree/master",
     index: 51,
   },
@@ -536,7 +536,7 @@ db.tools.insertMany([
     types: ["Web service"],
     tags: ["evaluation tool"],
     price: "free",
-    license: "Copyright",
+    license: ObjectId("6522ca69b0c8e50007cdc56a"), // Copyright
     source_code: "",
     index: 52,
   },
@@ -546,7 +546,7 @@ db.tools.insertMany([
     types: ["Browser plugin", "Chrome extension"],
     tags: ["aria"],
     price: "free",
-    license: "MIT License",
+    license: ObjectId("6522ca69b0c8e50007cdc561"), // MIT License
     source_code: "https://github.com/accdc/visual-aria",
     index: 53,
   },
@@ -556,7 +556,7 @@ db.tools.insertMany([
     types: ["Browser feature", "Chrome"],
     tags: ["aria", "accessibility tree", "order"],
     price: "free",
-    license: "Various",
+    license: ObjectId("6522ca69b0c8e50007cdc568"), // Apache-2.0 License
     source_code: "https://github.com/GoogleChrome",
     index: 54,
   },
@@ -566,9 +566,129 @@ db.tools.insertMany([
     types: ["Browser feature", "Chrome"],
     tags: ["evaluation tool"],
     price: "free",
-    license: "Apache-2.0 License",
+    license: ObjectId("6522ca69b0c8e50007cdc568"), // Apache-2.0 License
     source_code: "https://github.com/GoogleChrome/lighthouse",
     index: 55,
+  },
+  {
+    name: "Accessibility Inspector",
+    url: "https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector",
+    types: ["Browser feature", "Firefox"],
+    tags: ["evaluation tool", "vision simulator"],
+    price: "free",
+    license: ObjectId("6522ca69b0c8e50007cdc56a"), // Copyright
+    source_code: "https://github.com/mozilla",
+    index: 56,
+  },
+  {
+    name: "Atom Accessibility Checker",
+    url: "https://atom.io/packages/web-accessibility-checker",
+    types: ["Atom package"],
+    tags: ["static code analyzer"],
+    price: "free",
+    license: ObjectId("6522ca69b0c8e50007cdc561"), // MIT License
+    source_code: "https://github.com/web-weber/web-accessibility-checker",
+    index: 57,
+  },
+  {
+    name: "Web Accessibility Extension - Visual Studio Code",
+    url: "https://marketplace.visualstudio.com/items?itemName=MaxvanderSchee.web-accessibility",
+    types: ["VS Code plugin"],
+    tags: ["static code analyzer"],
+    price: "free",
+    license: ObjectId("6522ca69b0c8e50007cdc561"), // MIT License
+    source_code: "https://github.com/mvdschee/web-accessibility",
+    index: 58,
+  },
+  {
+    name: "Axe Accessibility Linter - Visual Studio Code",
+    url: "https://marketplace.visualstudio.com/items?itemName=deque-systems.vscode-axe-linter",
+    types: ["Visual Studio Code plugin"],
+    tags: ["static code analyzer"],
+    price: "free",
+    license: ObjectId("6522ca69b0c8e50007cdc56a"), // Copyright
+    source_code: "",
+    index: 59,
+  },
+  {
+    name: "Axe Linter GitHub",
+    url: "https://github.com/marketplace/axe-linter",
+    types: ["GitHub extension"],
+    tags: ["static code analyzer"],
+    price: "free",
+    license: ObjectId("6522ca69b0c8e50007cdc56a"), // Copyright
+    source_code: "",
+    index: 60,
+  },
+  {
+    name: "Pa11y CI",
+    url: "https://pa11y.org/",
+    types: ["CI tool"],
+    tags: ["testing"],
+    price: "free",
+    license: ObjectId("6522ca69b0c8e50007cdc564"), // LGPLv3 License
+    source_code: "https://github.com/pa11y/pa11y-ci",
+    index: 61,
+  },
+  {
+    name: "HTML Code Analyzer",
+    url: "https://rules.sonarsource.com/html/tag/accessibility/",
+    types: ["Code Quality tool", "SonarQube add-on"],
+    tags: ["static code analyzer"],
+    price: "free",
+    license: ObjectId("6522ca69b0c8e50007cdc56a"), // Copyright
+    source_code: "",
+    index: 62,
+  },
+  {
+    name: "Chrome DevTools - Device Toolbar",
+    url: "https://developer.chrome.com/docs/devtools/device-mode/#viewport",
+    types: ["Browser feature", "Chrome"],
+    tags: ["mobile view"],
+    price: "free",
+    license: ObjectId("6522ca69b0c8e50007cdc56a"), // Copyright
+    source_code: "https://github.com/googlechrome",
+    index: 63,
+  },
+  {
+    name: "mobiReady",
+    url: "https://ready.mobi/",
+    types: ["Web service"],
+    tags: ["performance"],
+    price: "free",
+    license: ObjectId("6522ca69b0c8e50007cdc56a"), // Copyright
+    source_code: "",
+    index: 64,
+  },
+  {
+    name: "Responsinator",
+    url: "https://www.responsinator.com/",
+    types: ["Web service"],
+    tags: ["mobile view"],
+    price: "free",
+    license: ObjectId("6522ca69b0c8e50007cdc56a"), // Copyright
+    source_code: "",
+    index: 65,
+  },
+  {
+    name: "PageSpeed Insights",
+    url: "https://developers.google.com/speed/pagespeed/insights/?hl=it",
+    types: ["Web service", "API"],
+    tags: ["performance"],
+    price: "free",
+    license: ObjectId("6522ca69b0c8e50007cdc568"), // Various (Apache License v2.0)
+    source_code: "",
+    index: 66,
+  },
+  {
+    name: "GTmetrix",
+    url: "https://gtmetrix.com/",
+    types: ["Web service"],
+    tags: ["performance"],
+    price: "free",
+    license: ObjectId("6522ca69b0c8e50007cdc56a"), // Copyright
+    source_code: "",
+    index: 67,
   },
 ]);
 
