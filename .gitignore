@@ -41,6 +41,8 @@ stuff
 .eslintrc.js
 package-lock.json
 ```
+# DA TOGLIERE (serve per il git pull in production che conflitta tra la versione 3.3 in production e 3.8 in locale)
+docker-compose.yml
 
 webapp
 dist/
