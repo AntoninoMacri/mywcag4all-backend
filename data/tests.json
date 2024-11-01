@@ -7,7 +7,7 @@
     "procedure": "Analizzare il sorgente della pagina e controllare l'uso corretto e adeguato degli elementi di markup per la definizione del contenuto. In particolare, fare attenzione all'annidamento dei tag e alla corretta strutturazione di liste (ul, ol, dl), form, tabelle, link, intestazioni. Controllare che sia presente in ogni pagina un titolo marcato come h1 e che le altre intestazioni siano correttamente strutturate; non devono essere presenti salti di intestazioni, ad esempio da h1 a h3. Controllare l'uso corretto dei landmark e region aria per le diverse parti della pagina. I tool consigliati evidenziano, sia sul codice che visivamente, i punti in cui è stato usato in modo non corretto il markup per la definizione della pagina. Il verificatore deve controllare gli errori rilevati e individuare la soluzione più corretta, consultando sempre le specifiche dello standard. Se gli errori sono dovuti a motivi di presentazione, questa va sempre gestita adattando la visualizzazione degli elementi tramite CSS.",
     "type": "S",
     "tags": ["struttura", "contenuto", "semantica", "html", "markup"],
-    "crieria":[]
+    "crieria": []
   },
   {
     "index": 2,
@@ -241,14 +241,7 @@
     "purpose": "Verificare la presenza di alternative o descrizioni testuali per immagini che portano valore al contenuto, in modo che le informazioni siano comunque comprensibili e reperibili anche se non vengono visualizzate",
     "procedure": "Individuare tutte le immagini informative presenti nella pagina e verificare che sia presente per ognuna l'attributo alt e che il suo valore descriva il significato dell'immagine per trasmettere lo stesso messaggio visuale. I tool consigliati permettono di rilevare la presenza o l'assenza dell'attributo alt o la presenza dell'attributo alt con valore vuoto. Al verificatore spetta il compito di verificare che, nel caso di immagini informative, l'attributo alt sia equivalente al significato dell'immagine.",
     "type": "S",
-    "tags": [
-      "contenuto",
-      "presentazione",
-      "immagini",
-      "html",
-      "attributi-html",
-      "alternativa"
-    ]
+    "tags": ["contenuto", "presentazione", "immagini", "html", "attributi-html", "alternativa"]
   },
   {
     "index": 28,
@@ -280,7 +273,7 @@
   {
     "index": 31,
     "level": "A",
-    "title": "Alternative testuali per le immagini",
+    "title": "Alternative testuali per i media",
     "purpose": "Verificare che sia disponibile un'alternativa testuale che fornisca una identificazione descrittiva per il contenuto del media",
     "procedure": "Individuare nella pagina tutti i media multimediali, audio e video, e verificare per ognuno di essi che sia disponibile anche una descrizione testuale del contenuto. I tool consigliati permettono di evidenziare, visivamente e nel codice, la presenza di contenuti multimediali, mentre al verificatore spetta il compito di analizzare la presenza e la corrispondenza dell'alternativa testuale.",
     "type": "S",
@@ -302,14 +295,7 @@
     "purpose": "Verificare che sia disponibile una descrizione testuale in giusta sequenza del contenuto video preregistrato oppure una traccia audio equivalente",
     "procedure": "Individuare nella pagina tutti i media video prereregistrati e verificare che per ognuno sia disponibile una descrizione del contenuto nella stessa sequenza in cui è presentato nel video.",
     "type": "M",
-    "tags": [
-      "contenuto",
-      "html",
-      "attributi-html",
-      "alternativa",
-      "media",
-      "video"
-    ]
+    "tags": ["contenuto", "html", "attributi-html", "alternativa", "media", "video"]
   },
   {
     "index": 34,
@@ -318,14 +304,7 @@
     "purpose": "Verificare che siano forniti sottotitoli per il media preregistrato contenente audio",
     "procedure": "Individuare nella pagina tutti i media preregistrati in cui sia presente audio e verificare che per ognuno siano forniti i sottotitoli.",
     "type": "M",
-    "tags": [
-      "contenuto",
-      "html",
-      "sottotitoli",
-      "alternativa",
-      "media",
-      "audio"
-    ]
+    "tags": ["contenuto", "html", "sottotitoli", "alternativa", "media", "audio"]
   },
   {
     "index": 35,
@@ -334,14 +313,7 @@
     "purpose": "Verificare che sia disponibile una audio-descrizione o descrizione di testo in giusta sequenza per i video preregistrati",
     "procedure": "Individuare nella pagina tutti i video preregistrati e verificare per ognuno che sia disponibile una descrizione del contenuto nello stesso ordine in cui è presente nel video oppure una audio-descrizione alternativa.",
     "type": "M",
-    "tags": [
-      "contenuto",
-      "html",
-      "sottotitoli",
-      "alternativa",
-      "media",
-      "audio"
-    ]
+    "tags": ["contenuto", "html", "sottotitoli", "alternativa", "media", "audio"]
   },
   {
     "index": 36,
@@ -350,15 +322,7 @@
     "purpose": "Verificare che i media con audio siano completamente controllabili dall’utente (andare avanti, indietro, mettere in pausa, alzare/abbassare il volume, ecc.)",
     "procedure": "Individuare tutti i media contenenti audio e verificare che sia disponibile un meccanismo per gestire l'andamento del media (fermare e riavviare) e per gestire il volume.",
     "type": "M",
-    "tags": [
-      "presentazione",
-      "contenuto",
-      "html",
-      "sottotitoli",
-      "alternativa",
-      "media",
-      "audio"
-    ]
+    "tags": ["presentazione", "contenuto", "html", "sottotitoli", "alternativa", "media", "audio"]
   },
   {
     "index": 37,
@@ -385,13 +349,7 @@
     "purpose": "Verificare che nessun elemento lampeggi per più di tre volte in un secondo oppure che il lampeggiamento sia al di sotto della soglia generale di lampeggiamento e della soglia del lampeggiamento rosso",
     "procedure": "Individuare nella pagina tutti i contenuti lampeggianti e verificare che il lampeggiamento sia inferiore alle tre volte per secondo o alla soglia del lampeggiamento rosso.",
     "type": "M",
-    "tags": [
-      "presentazione",
-      "comportamento",
-      "controllo",
-      "animazioni",
-      "tempo"
-    ]
+    "tags": ["presentazione", "comportamento", "controllo", "animazioni", "tempo"]
   },
   {
     "index": 40,
@@ -400,15 +358,7 @@
     "purpose": "Verificare che siano forniti sottotitoli per i media contenenti audio in tempo reale",
     "procedure": "Individuare tutti i contenuti audio in tempo reale presenti nella pagina e verificare che siano disponibili sottotitoli in tempo reale.",
     "type": "M",
-    "tags": [
-      "contenuto",
-      "html",
-      "sottotitoli",
-      "alternativa",
-      "media",
-      "audio",
-      "tempo reale"
-    ]
+    "tags": ["contenuto", "html", "sottotitoli", "alternativa", "media", "audio", "tempo reale"]
   },
   {
     "index": 41,
@@ -417,14 +367,7 @@
     "purpose": "Verificare che sia presente un audio-descrizione per tutti i contenuti video preregistrati",
     "procedure": "Individuare tutti i contenuti video preregistrati presenti nella pagina e verificare che sia disponibile una audio-descrizione per ognuno di essi.",
     "type": "M",
-    "tags": [
-      "contenuto",
-      "html",
-      "sottotitoli",
-      "alternativa",
-      "media",
-      "video"
-    ]
+    "tags": ["contenuto", "html", "sottotitoli", "alternativa", "media", "video"]
   },
   {
     "index": 42,
@@ -433,14 +376,7 @@
     "purpose": "Verificare che sia fornita l’interpretazione con la lingua dei segni per l’audio preregistrato",
     "procedure": "Individuare tutti i contenuti audio preregistrati presenti nella pagina e verificare che sia disponibile l'interpretazione in lingua dei segni per ognuno di essi.",
     "type": "M",
-    "tags": [
-      "contenuto",
-      "html",
-      "sottotitoli",
-      "alternativa",
-      "media",
-      "video"
-    ]
+    "tags": ["contenuto", "html", "sottotitoli", "alternativa", "media", "video"]
   },
   {
     "index": 43,
@@ -449,14 +385,7 @@
     "purpose": "Verificare che sia disponibile l’audio-descrizione estesa per i video preregistrati",
     "procedure": "Individuare tutti i contenuti video preregistrati presenti nella pagina e verificare che sia disponibile una audio-descrizione estesa per ognuno di essi.",
     "type": "M",
-    "tags": [
-      "contenuto",
-      "html",
-      "sottotitoli",
-      "alternativa",
-      "media",
-      "video"
-    ]
+    "tags": ["contenuto", "html", "sottotitoli", "alternativa", "media", "video"]
   },
   {
     "index": 44,
@@ -492,13 +421,7 @@
     "purpose": "Verificare che non sia presente nulla che lampeggi più di tre volte in un secondo",
     "procedure": "Analizzare il contenuto della pagina e verificare che non sia presente nulla che lampeggi più di tre volte in un secondo.",
     "type": "M",
-    "tags": [
-      "presentazione",
-      "comportamento",
-      "controllo",
-      "animazioni",
-      "tempo"
-    ]
+    "tags": ["presentazione", "comportamento", "controllo", "animazioni", "tempo"]
   },
   {
     "index": 48,
@@ -525,14 +448,7 @@
     "purpose": "Verificare che i grafici abbiano un contrasto adeguato (almeno 3:1 rispetto al contenuto vicino; il testo di almeno 4.5:1 se inferiore ai 18 punti o a 14pt se in grassetto, di 3:1 altrimenti)",
     "procedure": "Individuare tutti i grafici presenti nella pagina e analizzare i colori utilizzati. In particolare, verificare che vi sia un contrasto adeguato rispetto ai contenuti vicini e nel testo presente nel grafico. I tool consigliati permettono di analizzare il contrasto dei colori nella pagina e rilevare problemi di conformità nei colori usati, oppure aiutano lo sviluppatore a individuare una palette di colori con contrasto adeguato.",
     "type": "S",
-    "tags": [
-      "contenuto",
-      "grafici",
-      "dati",
-      "contrasto",
-      "colore",
-      "presentazione"
-    ]
+    "tags": ["contenuto", "grafici", "dati", "contrasto", "colore", "presentazione"]
   },
   {
     "index": 51,
@@ -541,15 +457,7 @@
     "purpose": "Verificare che il colore non sia l’unico mezzo per identificare un link (per esempio mantenere la sottolineatura)",
     "procedure": "Individuare tutti i link presenti nella pagina e verificare che sia chiaro anche visivamente che si tratti di un link, non solo usando il colore, ma anche usando la sottolineatura o altra convenzione interna che deve essere rispettata in tutto il sito. I tool consigliati permettono di evidenziare elementi che non è chiaro siano link.",
     "type": "S",
-    "tags": [
-      "contenuto",
-      "link",
-      "testo",
-      "contrasto",
-      "colore",
-      "alternativa",
-      "presentazione"
-    ]
+    "tags": ["contenuto", "link", "testo", "contrasto", "colore", "alternativa", "presentazione"]
   },
   {
     "index": 52,
@@ -576,14 +484,7 @@
     "purpose": "Verificare che i link siano evidenziati correttamente (visitato/non visitato) con un contrasto adeguato di almeno 3:1 rispetto ai colori adiacenti",
     "procedure": "Individuare tutti i link presenti nella pagina e verificare che il colore venga usato per evidenziarne lo stato in modo adeguato, ovvero mantenendo un rapporto di 3:1 rispetto ai colori vicini. I tool consigliati permettono di evidenziare i link e di analizzare il contrasto dei colori usati oppure aiutano lo sviluppatore a individuare una palette di colori con contrasto adeguato.",
     "type": "S",
-    "tags": [
-      "contenuto",
-      "link",
-      "testo",
-      "contrasto",
-      "colore",
-      "presentazione"
-    ]
+    "tags": ["contenuto", "link", "testo", "contrasto", "colore", "presentazione"]
   },
   {
     "index": 55,
@@ -646,13 +547,7 @@
     "purpose": "Verificare che non siano presenti riferimenti ai colori per orientarsi nel sito",
     "procedure": "Effettuare una prova di navigazione della pagina e verificare che non siano presenti riferimenti a colori per orientarsi o svolgere operazioni nella pagina.",
     "type": "M",
-    "tags": [
-      "contenuto",
-      "presentazione",
-      "alternativa",
-      "colore",
-      "navigazione"
-    ]
+    "tags": ["contenuto", "presentazione", "alternativa", "colore", "navigazione"]
   },
   {
     "index": 62,
@@ -661,15 +556,7 @@
     "purpose": "Verificare l’uso di un contrasto adeguato nel testo e nelle immagini di testo: almeno 4.5:1 per il testo piccolo (inferiore a 18 pt o 14 pt se in grassetto) e 3:1 per il testo grande (maggiore o uguale a 18pt o 14pt se in grassetto)",
     "procedure": "Utilizzare i tool consigliati per analizzare il risultato visuale della pagina oppure per individuare una palette di colori con contrasto adeguato da usare nella pagina: 4.5:1 per testo piccolo e 3:1 per testo grande.",
     "type": "S",
-    "tags": [
-      "contenuto",
-      "presentazione",
-      "alternativa",
-      "colore",
-      "contrasto",
-      "testo",
-      "immagini"
-    ]
+    "tags": ["contenuto", "presentazione", "alternativa", "colore", "contrasto", "testo", "immagini"]
   },
   {
     "index": 63,
@@ -687,14 +574,7 @@
     "purpose": "Verificare l’uso di un contrasto forte nel testo e nelle immagini di testo: almeno 7:1 per il testo piccolo (inferiore a 18 pt o 14 pt se in grassetto) e 4.5:1 per il testo grande (maggiore o uguale a 18pt o 14pt se in grassetto)",
     "procedure": "Utilizzare i tool consigliati per analizzare il risultato visuale della pagina oppure per individuare una palette di colori con contrasto adeguato da usare nella pagina: 7:1 per testo piccolo e 4.5:1 per testo grande.",
     "type": "S",
-    "tags": [
-      "contenuto",
-      "presentazione",
-      "testo",
-      "immagini",
-      "contrasto",
-      "colore"
-    ]
+    "tags": ["contenuto", "presentazione", "testo", "immagini", "contrasto", "colore"]
   },
   {
     "index": 65,
@@ -703,14 +583,7 @@
     "purpose": "Verificare il contrasto dei colori visualizzando la pagina in scala di grigi",
     "procedure": "Utilizzare gli strumenti consigliati per verificare la visualizzazione e comprensione della pagina in scala di grigi.",
     "type": "S",
-    "tags": [
-      "contenuto",
-      "presentazione",
-      "testo",
-      "immagini",
-      "contrasto",
-      "colore"
-    ]
+    "tags": ["contenuto", "presentazione", "testo", "immagini", "contrasto", "colore"]
   },
   {
     "index": 66,
@@ -719,14 +592,7 @@
     "purpose": "Verificare la visualizzazione del sito e la comprensibilità delle informazioni in un sito privo di colori",
     "procedure": "Utilizzare gli strumenti consigliati per verificare la visualizzazione e comprensione della pagina quando non sono presenti colori.",
     "type": "S",
-    "tags": [
-      "contenuto",
-      "presentazione",
-      "testo",
-      "immagini",
-      "alternativa",
-      "colore"
-    ]
+    "tags": ["contenuto", "presentazione", "testo", "immagini", "alternativa", "colore"]
   },
   {
     "index": 67,
@@ -735,14 +601,7 @@
     "purpose": "Verificare la visualizzazione del sito con colori invertiti o con diversi filtri colore che simulino la visualizzazione del sito da parte di persone affette da diverse tipologie di discromatopsia",
     "procedure": "Utilizzare gli strumenti consigliati per verificare la visualizzazione e comprensione della pagina da parte di persone affette da discromatopsia.",
     "type": "S",
-    "tags": [
-      "contenuto",
-      "presentazione",
-      "testo",
-      "immagini",
-      "alternativa",
-      "colore"
-    ]
+    "tags": ["contenuto", "presentazione", "testo", "immagini", "alternativa", "colore"]
   },
   {
     "index": 68,
@@ -751,16 +610,7 @@
     "purpose": "Verificare che il colore non sia l’unico mezzo per identificare campi obbligatori o errori",
     "procedure": "Individuare i campi obbligatori delle form presenti nella pagina e verificare che l'obbligatorietà sia evidenziata non solo con il colore, ma usando simboli o descrizioni. Effettuare poi una prova di compilazione con valori errati per verificare che gli errori siano correttamente evidenziati, in modo visuale usando il colore, ma anche altre convenzioni visive. Tutte le informazioni devono essere rese disponibili anche alle tecnologie assistive.",
     "type": "M",
-    "tags": [
-      "contenuto",
-      "presentazione",
-      "testo",
-      "alternativa",
-      "colore",
-      "input",
-      "errori",
-      "form"
-    ]
+    "tags": ["contenuto", "presentazione", "testo", "alternativa", "colore", "input", "errori", "form"]
   },
   {
     "index": 69,
@@ -796,17 +646,7 @@
     "purpose": "Verificare la corretta identificazione degli elementi obbligatori",
     "procedure": "Individuare tutti i campi di input presenti nella pagina e verificare che sia chiaro quali sono obbligatori. L'informazione deve essere trasmessa in diversi modi: col colore, con simboli derivanti da convenzioni (es. asterisco), con descrizione testuale, con indicazione alle tecnologie assistive (aria-required)",
     "type": "M",
-    "tags": [
-      "contenuto",
-      "presentazione",
-      "testo",
-      "immagini",
-      "alternativa",
-      "colore",
-      "input",
-      "errori",
-      "form"
-    ]
+    "tags": ["contenuto", "presentazione", "testo", "immagini", "alternativa", "colore", "input", "errori", "form"]
   },
   {
     "index": 73,
@@ -815,16 +655,7 @@
     "purpose": "Verificare la presenza di errori chiari che aiutino l’utente a correggersi in corrispondenza del campo che ha dato errore, aiutandosi anche con il colore, ma evitando che sia l’unico mezzo (per esempio usare elementi semantici come strong)",
     "procedure": "Effettuare una prova di compilazione della form con valori errati e analizzare gli errori ricevuti. Verificare che gli errori siano correttamente enfatizzati (tramite l'uso del colore, usando markup tipo strong, con indicazione alle tecnologie assistive) e che il messaggio sia sufficientemente escplicativo e aiuti l'utente a inserire i valori corretti.",
     "type": "M",
-    "tags": [
-      "contenuto",
-      "presentazione",
-      "testo",
-      "alternativa",
-      "colore",
-      "input",
-      "errori",
-      "form"
-    ]
+    "tags": ["contenuto", "presentazione", "testo", "alternativa", "colore", "input", "errori", "form"]
   },
   {
     "index": 74,
@@ -842,16 +673,7 @@
     "purpose": "Verificare l’uso corretto di fieldset e legend per raggruppare e descrivere elementi della stessa sezione (eventualmente in associazione al ruolo aria-group)",
     "procedure": "Individuare tutte le form o gruppi di campi di input presenti nella pagina e verificare se siano stati usati correttamente gli elementi fieldset e legend oppure il ruolo aria-group per evidenziare la correlazione tra i campi di input. I tool consigliati evidenziano la presenza o l'assenza di queste indicazioni, mentre al verificatore spetta il compito di verificare che il raggruppamento sia corretto. Il raggruppamento deve essere chiaro sia visivamente che alle tecnologie assistive.",
     "type": "S",
-    "tags": [
-      "contenuto",
-      "input",
-      "form",
-      "html",
-      "legend",
-      "fieldset",
-      "aria",
-      "aria-group"
-    ]
+    "tags": ["contenuto", "input", "form", "html", "legend", "fieldset", "aria", "aria-group"]
   },
   {
     "index": 76,
@@ -860,14 +682,7 @@
     "purpose": "Verificare che per ogni elemento della form nome, valore e stato siano impostati correttamente e che la notifica sui cambi di stato (es. radio button selezionato) sia resa disponibile ai programmi utente, comprese le tecnologie assistive assistive",
     "procedure": "Individuare tutti i campi delle form presenti nella pagina e verificare che il nome, il valore e lo stato degli elementi siano validi e corretti. I tool consigliati permettono di evidenziare i valori degli attributi inseriti. Effettuare poi una prova di compilazione e invio della form per verificare che siano resi evidenti all'utente i cambi di stato degli elementi.",
     "type": "S",
-    "tags": [
-      "contenuto",
-      "input",
-      "form",
-      "html",
-      "semantica",
-      "attributi-html"
-    ]
+    "tags": ["contenuto", "input", "form", "html", "semantica", "attributi-html"]
   },
   {
     "index": 77,
@@ -876,15 +691,7 @@
     "purpose": "Verificare l’uso dell’attributo di autocompletamento per far suggerire all’utente i dati attesi o fornire input precedenti",
     "procedure": "Individuare tutti i campi di input presenti nella pagina e verificare l'uso dell'attributo di autocompletamento. I tool consigliati permettono di evidenziare la presenza o assenza dell'attributo.",
     "type": "S",
-    "tags": [
-      "contenuto",
-      "input",
-      "form",
-      "html",
-      "dati",
-      "autocompletamento",
-      "comportamento"
-    ]
+    "tags": ["contenuto", "input", "form", "html", "dati", "autocompletamento", "comportamento"]
   },
   {
     "index": 78,
@@ -1244,14 +1051,7 @@
     "purpose": "Verificare l’uso corretto del tabindex",
     "procedure": "Analizzare il sorgente della pagina e verificare la presenza di tabindex. Verificare che, nel caso i tabindex abbiano valore positivo, questi siano strettamente necessari e non possa essere raggiunto lo stesso risultato riorganizzando la pagina. I tool consigliati permettono di evidenziare, visivamente e nel codice, l'uso del tabindex.",
     "type": "S",
-    "tags": [
-      "struttura",
-      "comportamento",
-      "focus",
-      "tabindex",
-      "htlm",
-      "attributi-html"
-    ]
+    "tags": ["struttura", "comportamento", "focus", "tabindex", "htlm", "attributi-html"]
   },
   {
     "index": 118,
@@ -1260,14 +1060,7 @@
     "purpose": "Verificare l’uso corretto di tabindex=0 per permettere il focus da tastiera a elementi che normalmente non lo hanno",
     "procedure": "Analizzare il sorgente della pagina e verificare la presenza di tabindex con valore 0 per dare focus a elementi che normalmente non lo ricevono. Effettuare una prova di utilizzo della pagina da tastiera per verificare che effettivamente il componente sia raggiungibile. I tool consigliati permettono di evidenziare, visivamente e nel codice, l'uso del tabindex.",
     "type": "S",
-    "tags": [
-      "struttura",
-      "comportamento",
-      "focus",
-      "tabindex",
-      "htlm",
-      "attributi-html"
-    ]
+    "tags": ["struttura", "comportamento", "focus", "tabindex", "htlm", "attributi-html"]
   },
   {
     "index": 119,
@@ -1276,14 +1069,7 @@
     "purpose": "Verificare l’uso corretto di tabindex=-1 per evitare che un certo elemento riceva il focus da tastiera",
     "procedure": "Analizzare il sorgente della pagina e verificare la presenza di tabindex con valore -1 per togliere il focus ad alcuni elementi. Effettuare una prova di utilizzo della pagina da tastiera per verificare che effettivamente il componente non sia raggiungibile. I tool consigliati permettono di evidenziare, visivamente e nel codice, l'uso del tabindex.",
     "type": "S",
-    "tags": [
-      "struttura",
-      "comportamento",
-      "focus",
-      "tabindex",
-      "htlm",
-      "attributi-html"
-    ]
+    "tags": ["struttura", "comportamento", "focus", "tabindex", "htlm", "attributi-html"]
   },
   {
     "index": 120,
@@ -1319,14 +1105,7 @@
     "purpose": "Verificare che le eventuali scorciatoie da tastiera impostate possano essere disattivate o rimappate o che siano attive solo quando il focus è sull’elemento per cui esiste la scorciatoia",
     "procedure": "Analizzare il sorgente della pagina e verificare l'impostazione delle scorciatoie da tastiera. I tool consigliati permettono di evidenziare il loro uso. Verificare quindi che le scorciatoie impostate eseguano l'azione corretta e che sia chiara all'utente la loro presenza. Verificare inoltre che le scorciatoie impostate possano essere disabilitate o rimappate dall'utente oppure che siano attive solo su singoli componenti quando questi ricevono il focus.",
     "type": "S",
-    "tags": [
-      "struttura",
-      "focus",
-      "comportamento",
-      "contenuto",
-      "tastiera",
-      "navigazione"
-    ]
+    "tags": ["struttura", "focus", "comportamento", "contenuto", "tastiera", "navigazione"]
   },
   {
     "index": 124,
@@ -1344,13 +1123,7 @@
     "purpose": "Verificare che tutte le funzionalità siano utilizzabili da tastiera senza richiedere tempi specifici di pressione dei tasti",
     "procedure": "Effettuare una prova di navigazione della pagina e verificare che per l'avvio di operazioni scatenate da componenti interattivi non sia necessario un tempo specifico di pressione dei tasti.",
     "type": "M",
-    "tags": [
-      "struttura",
-      "comportamento",
-      "contenuto",
-      "tastiera",
-      "navigazione"
-    ]
+    "tags": ["struttura", "comportamento", "contenuto", "tastiera", "navigazione"]
   },
   {
     "index": 126,
@@ -1431,15 +1204,7 @@
     "purpose": "Verificare la presenza di suggerimenti per la correzione degli errori",
     "procedure": "Effettuare una prova di compilazione di campi di input con valori errati e verificare la presenza e la corretta comunicazione, visivamente e alle tecnologie assistive, di suggerimenti per la correzione degli errori.",
     "type": "M",
-    "tags": [
-      "struttura",
-      "contenuto",
-      "comportamento",
-      "errore",
-      "input",
-      "dati",
-      "form"
-    ]
+    "tags": ["struttura", "contenuto", "comportamento", "errore", "input", "dati", "form"]
   },
   {
     "index": 135,
@@ -1466,14 +1231,7 @@
     "purpose": "Verificare che sia usato un layout semplice, chiaro e intuitivo (non più di tre colonne)",
     "procedure": "Analizzare la visualizzazione della pagina e verificare che la strutturazione delle sezioni della pagina sia chiara e intuitiva, così come lo scopo di ognuna di esse. Verificare che il layout non sia troppo complesso, generalmente senza superare le tre colonne di contenuti.",
     "type": "M",
-    "tags": [
-      "contenuto",
-      "testo",
-      "dati",
-      "sovraccarico",
-      "presentazione",
-      "layout"
-    ]
+    "tags": ["contenuto", "testo", "dati", "sovraccarico", "presentazione", "layout"]
   },
   {
     "index": 138,

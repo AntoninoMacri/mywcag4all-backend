@@ -1,0 +1,72 @@
+[
+  {
+    "codice": "D1",
+    "testo": "Hai verificato la correttezza della struttura e della semantica del codice HTML?",
+    "tests": [1, 2, 3, 5, 6, 8, 84, 85, 141]
+  },
+  {
+    "codice": "D2",
+    "testo": "Hai controllato il comportamento dei link?",
+    "tests": [52, 53, 55, 56, 57, 58, 103]
+  },
+  {
+    "codice": "D3",
+    "testo": "Il tuo sito web dichiara correttamente la lingua principale e le lingue dei contenuti?",
+    "tests": [4, 7, 59, 109]
+  },
+  {
+    "codice": "D4",
+    "testo": "Le immagini sono accessibili e presentano alternative testuali dove necessario?",
+    "tests": [9, 27, 28, 29, 30, 49, 50]
+  },
+  {
+    "codice": "D5",
+    "testo": "Hai garantito l’accessibilità dei contenuti multimediali (audio, video)?",
+    "tests": [31, 32, 33, 34, 35, 36, 37, 38, 39, 47, 40, 41, 42, 43, 44, 45, 46, 48, 87]
+  },
+  {
+    "codice": "D6",
+    "testo": "Sei sicuro che il contrasto e l’uso del colore siano adeguati?",
+    "tests": [51, 54, 60, 61, 62, 63, 64, 65, 66, 67, 68]
+  },
+  {
+    "codice": "D7",
+    "testo": "I moduli (forms) e input sono accessibili e ne favoriscano l’usabilità?",
+    "tests": [69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83]
+  },
+  {
+    "codice": "D8",
+    "testo": "Hai permesso una adeguata navigazione da tastiera e gestione del focus?",
+    "tests": [17, 19, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 155, 156, 157, 158, 159, 160, 161]
+  },
+  {
+    "codice": "D9",
+    "testo": "Hai controllato i contenuti testuali e la leggibilità?",
+    "tests": [92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 104, 105, 106, 107, 108]
+  },
+  {
+    "codice": "D10",
+    "testo": "Hai utilizzato i ruoli WAI-ARIA?",
+    "tests": [126, 127, 128, 129, 130, 131]
+  },
+  {
+    "codice": "D11",
+    "testo": "È corretta la se separazione struttura/presentazione",
+    "tests": [10, 11, 12, 13, 21, 22, 23, 24, 25, 26, 105]
+  },
+  {
+    "codice": "D12",
+    "testo": "Sono presenti aiuti alla Navigazione e una struttura del sito che aiuti la navigazione?",
+    "tests": [86, 132, 133, 134, 135, 136, 137, 138, 139, 140, 142, 143, 144, 145, 146, 147, 148, 149]
+  },
+  {
+    "codice": "D13",
+    "testo": "Sono presenti comportamenti interattivi?",
+    "tests": [14, 15, 16, 17, 18, 20, 87, 88, 89, 90, 91, 110, 111, 112, 113, 114, 115, 152, 162, 163, 164]
+  },
+  {
+    "codice": "D14",
+    "testo": "Hai controllato ulteriormente i requisiti di accessibilità?",
+    "tests": [151, 153, 154]
+  }
+]

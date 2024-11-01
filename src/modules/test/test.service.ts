@@ -1,16 +1,13 @@
-import { Injectable } from '@nestjs/common';
-import { CreateTestDto } from './dto/create-test.dto';
-import { UpdateTestDto } from './dto/update-test.dto';
-import { InjectModel } from '@nestjs/mongoose';
-import { Test } from '@nestjs/testing';
-import { Model } from 'mongoose';
-import { TestDocument } from 'src/modules/test/entities/test.schema';
+import { Injectable } from "@nestjs/common";
+import { CreateTestDto } from "./dto/create-test.dto";
+import { UpdateTestDto } from "./dto/update-test.dto";
+import { InjectModel } from "@nestjs/mongoose";
+import { Model } from "mongoose";
+import { Test, TestDocument } from "src/modules/test/entities/test.schema";
 
 @Injectable()
 export class TestService {
-  constructor(
-    @InjectModel(Test.name) private readonly model: Model<TestDocument>,
-  ) { }
+  constructor(@InjectModel(Test.name) private readonly model: Model<TestDocument>) {}
 
   async findAll() {
     return await this.model.find().exec();
@@ -23,5 +20,4 @@ export class TestService {
   async findOneByIndex(index: string) {
     return await this.model.findOne({ index: index }).exec();
   }
-
 }
