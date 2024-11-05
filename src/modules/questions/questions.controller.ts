@@ -9,19 +9,19 @@ export class QuestionController {
   constructor(private readonly questionService: QuestionService) {}
 
   @Post()
-  @UseGuards(AuthGuard("jwt"))
+  //@UseGuards(AuthGuard("jwt"))
   create(@Body() createQuestionDto: CreateQuestionDto) {
     return this.questionService.create(createQuestionDto);
   }
 
   @Get()
-  @UseGuards(AuthGuard("jwt"))
+  //@UseGuards(AuthGuard("jwt"))
   findAll() {
     return this.questionService.findAll();
   }
 
   @Get(":id")
-  @UseGuards(AuthGuard("jwt"))
+  //@UseGuards(AuthGuard("jwt"))
   findOne(@Param("id") id: string) {
     return this.questionService.findOne(id);
   }
